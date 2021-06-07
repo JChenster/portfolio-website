@@ -1,0 +1,21 @@
+.container{
+    margin-top: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+#pfp{
+    height: 300px;
+    width: 225px;
+}
+
+.left{
+    float: left;
+    margin-right: 5%;
+}
+
+.right{
+    font-size: 1.25em;
+}
