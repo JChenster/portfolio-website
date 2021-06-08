@@ -1,14 +1,13 @@
 body {
-    /* background-image: url("./images/background.png"); */
     font-family: 'Open Sans', sans-serif;
 }
 
 .bg{
-    height: 100%;
-    width: 100%;
+    /*
     background: rgb(123,183,219);
     background: radial-gradient(circle, rgba(123,183,219,1) 0%, rgba(243,247,246,1) 93%);
-    clip-path: polygon(10% 0, 100% 0, 100% 85%, 87% 100%, 0 100%, 0 14%);
-    position: absolute;
+    background-size: cover;
+    position: absolute; 
     z-index: -1;
+    */
 }

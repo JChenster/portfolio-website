@@ -1,0 +1,73 @@
+.education-header{
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    padding-bottom: 2%;
+}
+
+.school-bg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    width: 100%;
+    height: 31.25%;
+    opacity: 0.3;
+}
+
+.schooldesc{
+    position: absolute;
+    left: 15%;
+    font-size: 1.5vw;
+    width: 80%;
+}
+
+#yaledesc{
+    top: 10%;
+}
+
+#stuydesc{
+    top: 60%
+}
+
+.circle{
+    height: 5%;
+    width: 3%;
+    border-radius: 50%;
+    border: 3px solid;
+    position: absolute;
+    left: 7.5%;
+    border-color: black;
+}
+
+.circle:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    border: 1px solid;
+    border-width: 0 0 0 3px;
+    width: 1px;
+}
+
+#circle1{
+    top: 10%;
+}
+
+#circle1:before{
+    height:900%;
+}
+
+#circle2{
+    top: 60%;
+}
+
+#circle2:before{
+    height:550%;
+}

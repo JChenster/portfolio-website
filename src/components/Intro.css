@@ -2,20 +2,23 @@
     margin-top: 75px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 50px;
     overflow: auto;
 }
 
 #pfp{
-    height: 300px;
-    width: 225px;
+    height: 133%;
+    width: 100%;
 }
 
 .left{
+    width: 25%;
+    display: inline;
     float: left;
-    margin-right: 5%;
+    padding-right: 5%;
 }
 
 .right{
-    font-size: 1.25em;
+    width: 75%;
+    display: inline;
+    font-size: 1.5vw;
 }

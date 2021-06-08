@@ -5,8 +5,8 @@ import "./Footer.css"
 const Footer = () =>{
     return(
         <div class="social-container">
-            <SocialIcon url="https://github.com/JChenster" id="github"/>
-            <SocialIcon url="https://www.linkedin.com/in/jeffrey-z-chen" id="linkedin"/>
+            <SocialIcon url="https://github.com/JChenster"/>
+            <SocialIcon url="https://www.linkedin.com/in/jeffrey-z-chen"/>
         </div>
     );
 };

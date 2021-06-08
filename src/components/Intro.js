@@ -11,10 +11,12 @@ const Intro = () => {
     
     return (
         <div class="container">
-            <div class = "left">
+            <div class="left">
                 <img src={pfp} alt = "Me" id="pfp"/>
             </div>
-            <div class = "right"> {about} </div>
+            <div class="right">
+                {about}
+            </div>
         </div>
     );
 };
