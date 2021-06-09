@@ -1,0 +1,27 @@
+.nav {
+    background-color: var(--off-white);
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 4%;
+}
+
+.nav .nav-content {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item {
+    display: inline;
+    margin-left: 2rem;
+    color: #333;
+}
+  
+.nav-item:hover {
+    color: black;
+    cursor: pointer;
+}

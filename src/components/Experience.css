@@ -1,0 +1,22 @@
+.exp-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.exp{
+    border-radius: 4%;
+    border: 3px solid gray;
+    padding: 3%;
+    background-color: rgb(216, 207, 197);
+}
+
+.exp-line{
+    border-left: 3px solid gray;
+    margin-left: 50%;
+    height: 25px;
+}
+
+.git-link{
+    margin-top: 10px;
+}

@@ -6,11 +6,11 @@ import stuybg from "../images/stuybg.jpg";
 const Education = () =>{
     return (
         <div>
-            <div class="education-header"> Education </div>
-            <div class="container">
+            <div class="edu-container">
+                <div class="section-header">Education</div>
                 <img src={yalebg} alt="Yale" class="school-bg"/>
-                <div class="circle" id="circle1"></div>
-                <div class="circle" id="circle2"></div>
+                <div class="circle" id="edu-circle1"></div>
+                <div class="circle" id="edu-circle2"></div>
                 <div class="schooldesc" id="yaledesc">
                     Yale University<br/>
                     Class of 2024 <br/>

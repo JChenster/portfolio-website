@@ -1,33 +1,40 @@
-.education-header{
-    font-size: 2vw;
+.section-header{
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
+    padding-bottom: 3%;
 }
 
-.container{
+.edu-container{
+    margin-top: 10%;
     position: relative;
-    padding-bottom: 2%;
+    margin-bottom: 3%;
+    background-color: var(--off-white);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 4%;
+    padding: 5%;
 }
 
 .school-bg{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2%;
+    margin-bottom: 2%;
     width: 100%;
     height: 31.25%;
     opacity: 0.3;
+    border-radius: 4%;
 }
 
 .schooldesc{
     position: absolute;
-    left: 15%;
+    left: 17.5%;
     font-size: 1.5vw;
     width: 80%;
 }
 
 #yaledesc{
-    top: 10%;
+    top: 20%;
 }
 
 #stuydesc{
@@ -36,11 +43,11 @@
 
 .circle{
     height: 5%;
-    width: 3%;
+    width: 3.75%;
     border-radius: 50%;
     border: 3px solid;
     position: absolute;
-    left: 7.5%;
+    left: 10%;
     border-color: black;
 }
 
@@ -56,18 +63,18 @@
     width: 1px;
 }
 
-#circle1{
-    top: 10%;
+#edu-circle1{
+    top: 20%;
 }
 
-#circle1:before{
-    height:900%;
+#edu-circle1:before{
+    height:700%;
 }
 
-#circle2{
+#edu-circle2{
     top: 60%;
 }
 
-#circle2:before{
-    height:550%;
+#edu-circle2:before{
+    height:500%;
 }

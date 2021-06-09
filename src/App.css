@@ -1,5 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .bg{
@@ -10,4 +12,15 @@ body {
     position: absolute; 
     z-index: -1;
     */
+}
+
+.edu-exp{
+    display:flex; 
+    flex-direction:row;
+    background-color: var(--off-white);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 4%;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }

@@ -1,24 +1,25 @@
-.container{
-    margin-top: 75px;
-    margin-left: 10%;
-    margin-right: 10%;
+.intro-container{
+    margin-top: 10%;
+    padding: 5%;
     overflow: auto;
+    background-color: var(--off-white);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 4%;
 }
 
 #pfp{
-    height: 133%;
-    width: 100%;
+    height: 300px;
+    width: 225px;
+    border-radius: 4%;
 }
 
 .left{
-    width: 25%;
     display: inline;
     float: left;
     padding-right: 5%;
 }
 
 .right{
-    width: 75%;
     display: inline;
-    font-size: 1.5vw;
+    font-size: 1.25em;
 }
