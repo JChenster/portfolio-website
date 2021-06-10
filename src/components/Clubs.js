@@ -1,9 +1,10 @@
 import React from "react";
 import {generateExp} from "./Generate";
+import "./Clubs.css"
 
 const Clubs = () =>{
     return (
-        <div class="exp-container">
+        <div class="clubs-container">
             <div class="section-header">Extracirriculars</div>
             {generateExp("Yale Volunteer Income Tax Assistance", "Incoming Co-Director of Training", "Sep 2020 - Present")}
             {generateExp("The Urban Philanthropic Fund", "Grants Team Leader / Portfolio Managament Team", "Sep 2020 - May 2021")}

@@ -12,13 +12,13 @@ const Education = () =>{
                 <div class="circle" id="edu-circle1"></div>
                 <div class="circle" id="edu-circle2"></div>
                 <div class="schooldesc" id="yaledesc">
-                    Yale University<br/>
+                    <b>Yale University</b><br/>
                     Class of 2024 <br/>
                     <i>B.S. Computer Science and Economics;</i> GPA: 4.0/4.0<br/>
                     Coursework in Data Structures & Programming Techniques, Data Analysis, Microeconomics, Multivariate Calculus
                 </div>
                 <div class="schooldesc" id="stuydesc">
-                    Stuyvesant High School<br/>
+                    <b>Stuyvesant High School</b><br/>
                     Class of 2020<br/>
                     <i>Regents Diploma with Honors;</i> GPA: 97.78/100<br/>
                     Coursework in Systems Level Programming, Data Structures & Algorithms, Microeconomics, Macroeconomics, Calculus I & II

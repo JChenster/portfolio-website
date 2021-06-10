@@ -1,0 +1,14 @@
+.proj-skills{
+    display:flex; 
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.proj-skill{
+    background-color: white;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 10%;
+    padding: 5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}

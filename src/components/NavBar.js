@@ -18,16 +18,20 @@ const NavBar = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link activeClass="active" to="exp-container" spy={true} smooth={true} offset={-50} duration={500}>
+                        <Link activeClass="active" to="exp-container" spy={true} smooth={true} offset={-50} duration={750}>
                             Experience
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link activeClass="active" to="exp-container" spy={true} smooth={true} offset={-50} duration={500}>
+                        <Link activeClass="active" to="exp-container" spy={true} smooth={true} offset={-50} duration={750}>
                             Extracirriculars
                         </Link>
                     </li>
-                    <li className="nav-item">Projects</li>
+                    <li className="nav-item">
+                        <Link activeClass="active" to="proj-container" spy={true} smooth={true} offset={-50} duration={750}>
+                            Projects
+                        </Link>
+                    </li>
                     <li className="nav-item">Skills</li>
                 </ul>
             </div>

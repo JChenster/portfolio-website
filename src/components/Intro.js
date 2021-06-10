@@ -1,8 +1,7 @@
 import React from "react";
 import "./Intro.css";
-import pfp from "../images/pfp.jpg"
-import {SocialIcon} from "react-social-icons"
-import reactDom from "react-dom";
+import pfp from "../images/pfp.jpg";
+import {SocialIcon} from "react-social-icons";
 
 const Intro = () => {
     const about = `Hi there, welcome to my website!
