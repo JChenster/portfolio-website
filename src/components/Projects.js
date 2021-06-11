@@ -3,7 +3,7 @@ import "./Projects.css";
 import {generateProj} from "./Generate"
 
 const Projects = () => {
-    var large_world_skills = ["Python", "SQL", "Matplotlib", "R"];
+    var large_world_skills = ["Python", "SQL", "R", "Matplotlib"];
     var this_website_skills = ["React", "Javascript", "HTML", "CSS"]
     var quizwiz_skills = ["C"]
     var discord_quiz_skills = ["Python", "Webhooks"]

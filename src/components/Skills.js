@@ -27,7 +27,11 @@ const Skills = () => {
         <div class="skills-container">
             <div class="section-header">Skills</div>
             <div class="skills-row">
-                <div class="skills-row-left">Programming Languages</div>
+                <div class="skills-row-left">
+                    <div class="skills-wrap">
+                        <p>Programming Languages</p>
+                    </div>
+                </div>
                 <div class="skills-row-right">
                     {generateSkill(85, "Python")}
                     {generateSkill(75, "R")}
@@ -37,7 +41,11 @@ const Skills = () => {
                 </div>
             </div>
             <div class="skills-row">
-                <div class="skills-row-left"></div>
+                <div class="skills-row-left">
+                    <div class="skills-wrap">
+                        <p></p>
+                    </div>
+                </div>
                 <div class="skills-row-right">
                     {generateSkill(65, "Java")}
                     {generateSkill(65, "Racket")}
@@ -47,23 +55,17 @@ const Skills = () => {
                 </div>
             </div>
             <div class="skills-row">
-                <div class="skills-row-left">Frameworks</div>
-                <div class="skills-row-right">
-                    {generateSkill(65, "React")}
-                    {generateSkill(50, "Bootstrap")}
-                    {generateDummySkill()}
-                    {generateDummySkill()}
-                    {generateDummySkill()}
+                <div class="skills-row-left">
+                    <div class="skills-wrap">
+                        <p>Technical Tools & Frameworks</p>
+                    </div>
                 </div>
-            </div>
-            <div class="skills-row">
-                <div class="skills-row-left">Technical Tools</div>
                 <div class="skills-row-right">
                     {generateSkill(85, "Bash")}
-                    {generateSkill(75, "Github")}
+                    {generateSkill(75, "Git")}
                     {generateSkill(75, "VS Code")}
-                    {generateDummySkill()}
-                    {generateDummySkill()}
+                    {generateSkill(65, "React")}
+                    {generateSkill(50, "Bootstrap")}
                 </div>
             </div>
         </div>

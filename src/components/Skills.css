@@ -9,23 +9,30 @@
 
 .skills-row{
     padding-bottom: 5%;
+    display: flex;
 }
 
+
 .skills-row-left{
-    height: 125px;
-    width: 250px;
-    line-height: 125px;
-    vertical-align: center;
-    float: left;
     padding-right: 5%;
     font-size: 1.25em;
+    display: inline-block;
+}
+
+.skills-wrap{
+    display: table;
+    width: 125px;
+    height: 125px;
+}
+
+.skills-wrap p{
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .skills-row-right{
-    height: 125px;
     display: flex;
     flex-direction:row;
-    justify-content: flex-start;
 }
 
 #dummy-skill{
