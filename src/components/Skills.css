@@ -1,0 +1,33 @@
+.skills-container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: var(--off-white);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 4%;
+    padding: 5%;
+}
+
+.skills-row{
+    padding-bottom: 5%;
+}
+
+.skills-row-left{
+    height: 125px;
+    width: 250px;
+    line-height: 125px;
+    vertical-align: center;
+    float: left;
+    padding-right: 5%;
+    font-size: 1.25em;
+}
+
+.skills-row-right{
+    height: 125px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+
+#dummy-skill{
+    visibility: hidden;
+}

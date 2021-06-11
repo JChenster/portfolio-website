@@ -8,7 +8,9 @@ const Intro = () => {
                     I'm Jeffrey, a student at Yale College from Brooklyn, NYC. 
                     I'm studying Computer Science and Economics. 
                     Some of my interests include software engineering, AI/ML, data science, investing, personal finance, public policy, and international relations. 
-                    I enjoy long walks and scooter rides while listening to music and podcasts, as well as playing soccer.`
+                    I enjoy long walks and scooter rides while listening to music and podcasts, as well as playing soccer.
+                    If you want to reach me, feel free to email me: jeffrey.chen@yale.edu.
+                    `
     
     return (
         <div class="intro-container">

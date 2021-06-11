@@ -8,7 +8,6 @@
 .edu-container{
     margin-top: 10%;
     position: relative;
-    margin-bottom: 3%;
     background-color: var(--off-white);
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
     border-radius: 4%;
@@ -28,7 +27,7 @@
 
 .schooldesc{
     position: absolute;
-    left: 17.5%;
+    left: 20%;
     font-size: 1.5vw;
     width: 80%;
 }
@@ -42,8 +41,8 @@
 }
 
 .circle{
-    height: 5%;
-    width: 3.75%;
+    height: 7.5%;
+    width: 5.625%;
     border-radius: 50%;
     border: 3px solid;
     position: absolute;
@@ -65,16 +64,20 @@
 
 #edu-circle1{
     top: 20%;
+    background-image: url("../images/yalelogo.svg");
+    background-size: cover;
 }
 
 #edu-circle1:before{
-    height:700%;
+    height:430%;
 }
 
 #edu-circle2{
     top: 60%;
+    background-image: url("../images/stuylogo.png");
+    background-size: cover;
 }
 
 #edu-circle2:before{
-    height:500%;
+    height:310%;
 }
