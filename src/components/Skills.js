@@ -38,20 +38,9 @@ const Skills = () => {
                     {generateSkill(75, "C")}
                     {generateSkill(65, "Javascript")}
                     {generateSkill(65, "HTML/CSS")}
-                </div>
-            </div>
-            <div class="skills-row">
-                <div class="skills-row-left">
-                    <div class="skills-wrap">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="skills-row-right">
                     {generateSkill(65, "Java")}
                     {generateSkill(65, "Racket")}
                     {generateSkill(33, "LaTeX")}
-                    {generateDummySkill()}
-                    {generateDummySkill()}
                 </div>
             </div>
             <div class="skills-row">
@@ -66,6 +55,9 @@ const Skills = () => {
                     {generateSkill(75, "VS Code")}
                     {generateSkill(65, "React")}
                     {generateSkill(50, "Bootstrap")}
+                    {generateDummySkill()}
+                    {generateDummySkill()}
+                    {generateDummySkill()}
                 </div>
             </div>
         </div>
