@@ -9,7 +9,7 @@ const NavBar = () => {
                 <ul className="nav-items">
                     <li className="nav-item">
                         <Link activeClass="active" to="intro-container" spy={true} smooth={true} offset={-50} duration={500}>
-                            About
+                            About Me
                         </Link>
                     </li>
                     <li className="nav-item">

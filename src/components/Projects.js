@@ -10,7 +10,7 @@ const Projects = () => {
     var discord_quiz_skills = ["Python", "Webhooks"];
 
     return (
-        <div class="container">
+        <div class="container proj-container">
             <div class="section-header proj-header">Projects</div>
             <div class="proj-row">
                 {generateProj("proj-left", "Large Worlds", "May 2021 - Present", "https://github.com/JChenster/large-worlds",
