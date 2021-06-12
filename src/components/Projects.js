@@ -22,7 +22,7 @@ const Projects = () => {
                             "This website! This is my portfolio and the development of it enabled me to practice front-end development.", 
                             this_website_skills)}
                 {generateProj("proj-right", "Can I Get a Credit Card?", "May 2021", "../../CreditCardProject.html",
-                            ` A statistical analysis of the different variables that affect the adcceptable of credit card applications.
+                            ` A statistical analysis of the different variables that affect the acceptance of credit card applications.
                             Incorporates bootstrap testing, permutation testing, multiple regression, logistic regression, and ANOVA.
                             Collaborated with two other data analysts.
                             `,
