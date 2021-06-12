@@ -4,23 +4,25 @@ body {
     margin-right: 10%;
 }
 
-.bg{
-    /*
-    background: rgb(123,183,219);
-    background: radial-gradient(circle, rgba(123,183,219,1) 0%, rgba(243,247,246,1) 93%);
-    background-size: cover;
-    position: absolute; 
-    z-index: -1;
-    */
+/* 
+Container and section header are used quite frequently across components
+*/
+.container{
+    background-color: var(--off-white);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+    margin-bottom: 10%;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.section-header{
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 3%;
 }
 
 .edu-exp{
     display:flex; 
     flex-direction:row;
-    background-color: var(--off-white);
-    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
-    border-radius: 4%;
-    margin-top: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
 }

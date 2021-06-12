@@ -1,28 +1,16 @@
-.section-header{
-    font-size: 1.75em;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 3%;
-}
-
 .edu-container{
     margin-top: 10%;
     position: relative;
-    background-color: var(--off-white);
-    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
-    border-radius: 4%;
     padding: 5%;
 }
 
 .school-bg{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 2%;
     width: 100%;
     height: 31.25%;
     opacity: 0.3;
-    border-radius: 4%;
+    border-radius: 15px;
 }
 
 .schooldesc{

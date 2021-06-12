@@ -6,7 +6,7 @@ import stuybg from "../images/stuybg.jpg";
 const Education = () =>{
     return (
         <div>
-            <div class="edu-container">
+            <div class="container edu-container">
                 <div class="section-header">Education</div>
                 <img src={yalebg} alt="Yale" class="school-bg"/>
                 <div class="circle" id="edu-circle1"></div>

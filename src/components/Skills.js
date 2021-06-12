@@ -24,7 +24,7 @@ const generateDummySkill = () =>{
 
 const Skills = () => {
     return (
-        <div class="skills-container">
+        <div class="container">
             <div class="section-header">Skills</div>
             <div class="skills-row">
                 <div class="skills-row-left">

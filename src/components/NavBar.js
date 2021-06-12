@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const NavBar = () => {
     return (
-        <nav className="nav" id="navbar">
+        <nav className="nav container" id="navbar">
             <div className="nav-content">
                 <ul className="nav-items">
                     <li className="nav-item">
@@ -24,7 +24,7 @@ const NavBar = () => {
                     </li>
                     <li className="nav-item">
                         <Link activeClass="active" to="exp-container" spy={true} smooth={true} offset={-50} duration={750}>
-                            Extracirriculars
+                            Extracurriculars
                         </Link>
                     </li>
                     <li className="nav-item">

@@ -1,10 +1,6 @@
 .intro-container{
-    margin-top: 10%;
     padding: 5%;
     overflow: auto;
-    background-color: var(--off-white);
-    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
-    border-radius: 4%;
 }
 
 #pfp{
