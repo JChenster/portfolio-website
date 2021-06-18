@@ -18,7 +18,7 @@ const Projects = () => {
                             Data is subsequently collected, analyzed, and synthesized.`, 
                             large_world_skills)
                 }
-                {generateProj("proj-mid", "Personal Website", "Jun 2021", "https://github.com/JChenster/JChenster.github.io",
+                {generateProj("proj-mid", "Personal Website", "Jun 2021", "https://github.com/JChenster/portfolio-website",
                             "This website! This is my portfolio and the development of it enabled me to practice front-end development.", 
                             this_website_skills)}
                 {generateProj("proj-right", "Can I Get a Credit Card?", "May 2021", "../../CreditCardProject.html",
