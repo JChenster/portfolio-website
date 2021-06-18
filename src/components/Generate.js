@@ -13,7 +13,7 @@ const generateGit = (git_link) => {
 const generatePdf = (pdf_link) => {
     return(
         <div>
-            <a href={pdf_link} target="_blank">
+            <a href={pdf_link} target="_blank" rel="noreferrer">
                 <FiExternalLink class="pdf-link"/>
             </a>
         </div>

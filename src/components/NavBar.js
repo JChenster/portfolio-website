@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
     return (

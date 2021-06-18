@@ -18,10 +18,10 @@ const Intro = () => {
                 <img src={pfp} alt = "Me" id="pfp"/>
             </div>
             <div class="right">
-                {about} <a href="mailto:jeffrey.chen@yale.edu" target = "_blank">jeffrey.chen@yale.edu</a>.<br/> <br/>
-                <SocialIcon url="mailto:jeffrey.chen@yale.edu" target="_blank" bgColor="#ea4335"/>
-                <SocialIcon url="https://github.com/JChenster" target="_blank"/>
-                <SocialIcon url="https://www.linkedin.com/in/jeffrey-z-chen" target="_blank"/>
+                {about} <a href="mailto:jeffrey.chen@yale.edu" target = "_blank" rel="noreferrer">jeffrey.chen@yale.edu</a>.<br/> <br/>
+                <SocialIcon url="mailto:jeffrey.chen@yale.edu" target="_blank" rel="noreferrer" bgColor="#ea4335"/>
+                <SocialIcon url="https://github.com/JChenster" target="_blank" rel="noreferrer" />
+                <SocialIcon url="https://www.linkedin.com/in/jeffrey-z-chen" target="_blank" rel="noreferrer"/>
             </div>
         </div>
     );
