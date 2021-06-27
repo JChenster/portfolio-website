@@ -6,7 +6,7 @@ import {SocialIcon} from "react-social-icons";
 const Intro = () => {
     const about = `Hi there, welcome to my website!
                     I'm Jeffrey, a student at Yale College from Brooklyn, NYC. 
-                    I'm studying Computer Science and Economics. 
+                    I'm studying Computer Science and Applied Math. 
                     Some of my interests include software engineering, AI/ML, data science, investing, personal finance, public policy, and international relations. 
                     I enjoy long walks and scooter rides while listening to music and podcasts, as well as playing soccer.
                     If you want to reach me, my email is: 

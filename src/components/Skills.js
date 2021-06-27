@@ -53,7 +53,7 @@ const Skills = () => {
                     {generateSkill(85, "Bash")}
                     {generateSkill(75, "Git")}
                     {generateSkill(75, "VS Code")}
-                    {generateSkill(65, "React")}
+                    {generateSkill(65, "ReactJS")}
                     {generateSkill(50, "Bootstrap")}
                     {generateSkill(33, "LaTeX")}
                     {generateDummySkill()}

@@ -14,7 +14,7 @@ const Education = () =>{
                 <div class="schooldesc" id="yaledesc">
                     <b>Yale University</b><br/>
                     Class of 2024 <br/>
-                    <i>B.S. Computer Science and Economics;</i> GPA: 4.0/4.0<br/>
+                    <i>B.S. Computer Science and Applied Mathematics;</i> GPA: 4.0/4.0<br/>
                     Coursework in Data Structures & Programming Techniques, Data Analysis, Microeconomics, Multivariate Calculus
                 </div>
                 <div class="schooldesc" id="stuydesc">
