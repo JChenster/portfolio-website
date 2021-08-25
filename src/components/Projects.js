@@ -13,20 +13,32 @@ const Projects = () => {
         <div class="container proj-container">
             <div class="section-header proj-header">Projects</div>
             <div class="proj-row">
-                {generateProj("proj-left", "Large Worlds", "May 2021 - Present", "https://github.com/JChenster/large-worlds",
-                            `Computational economics research experiment conducted under the guidance of Professor Sunder simulating how artificially intelligent agents trade in double auction markets. 
-                            Data is subsequently collected, analyzed, and synthesized.`, 
-                            large_world_skills)
-                }
-                {generateProj("proj-mid", "Discord Quiz", "Summer 2018, Updated Jun 2021", "https://github.com/JChenster/discord_quiz",
-                            `A Discord bot that allows a person to locally host a fully-customizable interactive multi-player timed multiple choice trivia quiz game with custom questions in their server. 
-                            Used in a server with 60+ players.
-                            `,
-                            discord_quiz_skills
+                {generateProj(
+                    "proj-left", 
+                    "Large Worlds", 
+                    "May 2021 - Aug 2021", 
+                    "https://github.com/JChenster/large-worlds",
+                    `Computational economics research project conducted under the guidance of Professor Sunder simulating how artificially intelligent agents trade Arrow-Debreu securities in double auction markets. 
+                    Large volumes of data were collected in a comprehensive database system and then subsequently statistically analyzed.`, 
+                    large_world_skills
                 )}
-                {generateProj("proj-right", "Personal Website", "Jun 2021", "https://github.com/JChenster/portfolio-website",
-                            "This website! This is my portfolio and the development of it enabled me to practice front-end development.", 
-                            this_website_skills)}
+                {generateProj(
+                    "proj-mid", 
+                    "Discord Quiz", 
+                    "Summer 2018, Updated Jun 2021", 
+                    "https://github.com/JChenster/discord_quiz",
+                    `A Discord bot that allows a person to locally host a fully-customizable interactive multi-player timed multiple choice trivia quiz game with custom questions in their server. 
+                    Used in a server with 60+ players.`,
+                    discord_quiz_skills
+                )}
+                {generateProj(
+                    "proj-right", 
+                    "Personal Website", 
+                    "Jun 2021", 
+                    "https://github.com/JChenster/portfolio-website",
+                    "This website! This is my portfolio and the development of it enabled me to practice front-end development.", 
+                    this_website_skills
+                )}
             </div>
             <div class="proj-row">
                 {generateProj("proj-left", "Can I Get a Credit Card?", "May 2021", "https://drive.google.com/file/d/1vrByd0DhRZBZTZVehkwNDkJYfuUG3vx4/view?usp=sharing",

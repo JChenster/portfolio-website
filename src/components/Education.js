@@ -14,14 +14,15 @@ const Education = () =>{
                 <div class="schooldesc" id="yaledesc">
                     <b>Yale University</b><br/>
                     Class of 2024 <br/>
-                    <i>B.S. Computer Science and Applied Mathematics;</i> GPA: 4.0/4.0<br/>
-                    Coursework in Data Structures & Programming Techniques, Data Analysis, Microeconomics, Multivariate Calculus
+                    <i> B.S. in Computer Science and Applied Mathematics;</i> GPA: 3.97/4.00<br/>
+                    <i> Computer Science Coursework:</i> Data Structures, Computational Intelligence for Games, Systems Programming and Computer Organization, Discrete Mathematics <br/>
+                    <i> Applied Mathematics Coursework:</i> Probability Theory, Data Analysis, Linear Algebra, Multivariable Calculus, Microeconomics
                 </div>
                 <div class="schooldesc" id="stuydesc">
                     <b>Stuyvesant High School</b><br/>
                     Class of 2020<br/>
                     <i>Regents Diploma with Honors;</i> GPA: 97.78/100<br/>
-                    Coursework in Systems Level Programming, Data Structures & Algorithms, Microeconomics, Macroeconomics, Calculus I & II
+                    Coursework: Systems Level Programming, Data Structures & Algorithms, Microeconomics, Macroeconomics, Calculus I & II
                 </div>
                 <img src={stuybg} alt="Stuy" class="school-bg"/>
             </div>
