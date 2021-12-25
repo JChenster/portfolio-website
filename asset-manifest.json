@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.17bb6ba3.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.b987dc83.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.b987dc83.chunk.js.map",
+    "main.css": "/portfolio-website/static/css/main.bab19a08.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.17c887f8.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.17c887f8.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.8d9dea27.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.8d9dea27.js.map",
     "static/css/2.6c0f60ba.chunk.css": "/portfolio-website/static/css/2.6c0f60ba.chunk.css",
-    "static/js/2.95c3d702.chunk.js": "/portfolio-website/static/js/2.95c3d702.chunk.js",
-    "static/js/2.95c3d702.chunk.js.map": "/portfolio-website/static/js/2.95c3d702.chunk.js.map",
+    "static/js/2.726085d9.chunk.js": "/portfolio-website/static/js/2.726085d9.chunk.js",
+    "static/js/2.726085d9.chunk.js.map": "/portfolio-website/static/js/2.726085d9.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
     "static/css/2.6c0f60ba.chunk.css.map": "/portfolio-website/static/css/2.6c0f60ba.chunk.css.map",
-    "static/css/main.17bb6ba3.chunk.css.map": "/portfolio-website/static/css/main.17bb6ba3.chunk.css.map",
-    "static/js/2.95c3d702.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.95c3d702.chunk.js.LICENSE.txt",
-    "static/media/pfp.4d96772e.jpg": "/portfolio-website/static/media/pfp.4d96772e.jpg",
-    "static/media/stuybg.9823329d.jpg": "/portfolio-website/static/media/stuybg.9823329d.jpg",
-    "static/media/Education.css": "/portfolio-website/static/media/yalelogo.bb35545d.svg",
-    "static/media/yalebg.b749466d.jpg": "/portfolio-website/static/media/yalebg.b749466d.jpg"
+    "static/css/main.bab19a08.chunk.css.map": "/portfolio-website/static/css/main.bab19a08.chunk.css.map",
+    "static/js/2.726085d9.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.726085d9.chunk.js.LICENSE.txt",
+    "static/media/amazon_logo.4bc63700.png": "/portfolio-website/static/media/amazon_logo.4bc63700.png",
+    "static/media/pfp.e1f28d34.jpg": "/portfolio-website/static/media/pfp.e1f28d34.jpg",
+    "static/media/stuylogo.940ffd70.png": "/portfolio-website/static/media/stuylogo.940ffd70.png",
+    "static/media/yale_som_logo.41684b36.jpeg": "/portfolio-website/static/media/yale_som_logo.41684b36.jpeg",
+    "static/media/yalelogo.bb35545d.svg": "/portfolio-website/static/media/yalelogo.bb35545d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8d9dea27.js",
     "static/css/2.6c0f60ba.chunk.css",
-    "static/js/2.95c3d702.chunk.js",
-    "static/css/main.17bb6ba3.chunk.css",
-    "static/js/main.b987dc83.chunk.js"
+    "static/js/2.726085d9.chunk.js",
+    "static/css/main.bab19a08.chunk.css",
+    "static/js/main.17c887f8.chunk.js"
   ]
 }
