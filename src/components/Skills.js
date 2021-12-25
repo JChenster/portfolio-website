@@ -1,7 +1,6 @@
 import React from "react";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import "./Skills.css";
 
 const generateSkill = (value, text) => {
     let color = value > 50 ? "#50C878" : "#FFEA00";
@@ -29,14 +28,14 @@ const Skills = () => {
             <div class="skills-row">
                 <div class="skills-row-left">
                     <div class="skills-wrap">
-                        <p>Programming Languages</p>
+                        <p class="skills-p">Programming Languages</p>
                     </div>
                 </div>
                 <div class="skills-row-right">
-                    {generateSkill(85, "Python")}
-                    {generateSkill(75, "R")}
+                    {generateSkill(90, "Python")}
                     {generateSkill(75, "C")}
-                    {generateSkill(70, "Javascript")}
+                    {generateSkill(65, "R")}
+                    {generateSkill(65, "Javascript")}
                     {generateSkill(65, "HTML/CSS")}
                     {generateSkill(65, "Java")}
                     {generateSkill(65, "SQL")}
@@ -46,7 +45,7 @@ const Skills = () => {
             <div class="skills-row">
                 <div class="skills-row-left">
                     <div class="skills-wrap">
-                        <p>Technical Tools & Frameworks</p>
+                        <p class="skills-p">Technical Tools & Frameworks</p>
                     </div>
                 </div>
                 <div class="skills-row-right">
@@ -55,8 +54,8 @@ const Skills = () => {
                     {generateSkill(75, "VS Code")}
                     {generateSkill(65, "ReactJS")}
                     {generateSkill(65, "NodeJS")}
+                    {generateSkill(65, "LaTeX")}
                     {generateSkill(50, "Bootstrap")}
-                    {generateSkill(33, "LaTeX")}
                     {generateDummySkill()}
                 </div>
             </div>

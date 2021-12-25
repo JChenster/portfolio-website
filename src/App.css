@@ -4,9 +4,7 @@ body {
     margin-right: 10%;
 }
 
-/* 
-Container and section header are used quite frequently across components
-*/
+/* Container and section header are used quite frequently across components */
 .container{
     background-color: var(--off-white);
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
@@ -20,9 +18,198 @@ Container and section header are used quite frequently across components
     font-weight: bold;
     text-align: center;
     padding-bottom: 3%;
+    text-decoration: underline;
 }
 
-.edu-exp{
+/* NAVBAR */
+
+.nav {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+}
+
+.nav .nav-content {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item {
+    display: inline;
+    margin-left: 2rem;
+    color: #333;
+}
+  
+.nav-item:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* INTRO */
+.intro-container{
+    padding: 5%;
+    overflow: auto;
+}
+
+#pfp{
+    height: 300px;
+    width: 225px;
+    border-radius: 4%;
+}
+
+.intro-left{
+    display: inline;
+    float: left;
+    padding-right: 5%;
+}
+
+.intro-right{
+    display: inline;
+    font-size: 1.2em;
+}
+
+/* EDUCATION */
+.edu-container{
+    margin-top: 10%;
+    position: relative;
+    padding: 5%;
+}
+
+.edu-school{
+    display: flex;
+    margin-bottom: 5%;
+    min-height: 150px;
+}
+
+.edu-school-left{
+    position: relative;
+    display: block;
+    float: left;
+    padding-right: 5%;
+    flex-basis: 150px;
+}
+
+.edu-school-right{
+    display: block;
+    font-size: 1.2em;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+.edu-class{
+    color: black;
+    text-decoration: none;
+}
+
+.edu-class:hover{
+    color: blue;
+}
+
+/* EXPERIENCE */
+.exp-container{
+    margin-top: 10%;
+    position: relative;
+    padding: 5%;
+}
+
+/* PROJECTS */
+.proj-skills{
     display:flex; 
     flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.proj-skill{
+    background-color: white;
+    box-shadow: 0 4px 14px 0 rgba(105, 98, 98, 0.15);
+    border-radius: 5px;
+    padding: 5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.pdf-link{
+    height: 40px;
+    width: 40px;
+    color: black;
+}
+
+.proj-header{
+    padding-bottom: 0%;
+}
+
+.proj-row{
+    display:flex; 
+    flex-direction:row;
+    margin-top: 3%;
+}
+
+.proj{
+    padding: 2%;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: rgb(240, 251, 251 );
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+
+.proj-dummy{
+    padding: 2%;
+    padding: 3%;
+    visibility: hidden;
+}
+
+#proj-left{
+    margin-right: 2.5%;
+    width: 100%;
+}
+
+#proj-mid{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 100%;
+}
+
+#proj-right{
+    margin-left: 2.5%;
+    width: 100%;
+}
+
+/* SKILLS*/
+.skills-row{
+    padding-bottom: 5%;
+    display: flex;
+}
+
+.skills-row-left{
+    padding-right: 5%;
+    font-size: 1.25em;
+    display: inline-block;
+}
+
+.skills-wrap{
+    display: table;
+    width: 125px;
+    height: 125px;
+}
+
+.skills-wrap .skills-p{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.skills-row-right{
+    display: flex;
+    flex-direction:row;
+}
+
+/* FOOTER */
+.footer-container{
+    text-align: center;
+    padding-bottom: 1%;
 }

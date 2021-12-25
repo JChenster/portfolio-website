@@ -1,5 +1,4 @@
 import { SocialIcon } from "react-social-icons";
-import "./Generate.css"
 import { FiExternalLink } from "react-icons/fi";
 
 const generateGit = (git_link) => {

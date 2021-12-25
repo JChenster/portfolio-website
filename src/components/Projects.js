@@ -1,5 +1,4 @@
 import React from "react";
-import "./Projects.css";
 import {generateProj} from "./Generate"
 
 const Projects = () => {

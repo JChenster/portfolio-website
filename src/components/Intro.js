@@ -1,24 +1,23 @@
 import React from "react";
-import "./Intro.css";
 import pfp from "../images/pfp.jpg";
 import {SocialIcon} from "react-social-icons";
 
 const Intro = () => {
-    const about = `Hi there, welcome to my website!
-                    I'm Jeffrey, a student at Yale College from Brooklyn, NYC. 
-                    I'm studying Computer Science and Applied Math. 
-                    Some of my interests include software engineering, AI/ML, data science, investing, personal finance, public policy, and international relations. 
-                    I enjoy long walks and scooter rides while listening to music and podcasts, as well as playing soccer.
-                    If you want to reach me, my email is: 
-                    `
+    const about = (
+        <div class="intro-about">
+            <p> Hey there! I'm Jeffrey (Jeff).</p>
+            <p> I'm a first-gen student at Yale College studying Computer Science and Applied Mathematics. </p>
+            <p> I'm from Brooklyn, NY. </p>
+        </div>
+    );
     
     return (
         <div class="container intro-container">
-            <div class="left">
+            <div class="intro-left">
                 <img src={pfp} alt = "Me" id="pfp"/>
             </div>
-            <div class="right">
-                {about} <a href="mailto:jeffrey.chen@yale.edu" target = "_blank" rel="noreferrer">jeffrey.chen@yale.edu</a>.<br/> <br/>
+            <div class="intro-right">
+                {about} <span> If you want to reach me: </span><a href="mailto:jeffrey.chen@yale.edu" target = "_blank" rel="noreferrer">jeffrey.chen@yale.edu</a>.<br/> <br/>
                 <SocialIcon url="mailto:jeffrey.chen@yale.edu" target="_blank" rel="noreferrer" bgColor="#ea4335"/>
                 <SocialIcon url="https://github.com/JChenster" target="_blank" rel="noreferrer" />
                 <SocialIcon url="https://www.linkedin.com/in/jeffrey-z-chen" target="_blank" rel="noreferrer"/>
