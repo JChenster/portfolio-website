@@ -13,9 +13,9 @@ const Education = () =>{
                 </div>
                 <div class="edu-school-right">
                     <u> <b> <a class="edu-class" href= "https://www.yale.edu/" target="_blank" rel="noreferrer"> Yale University </a> </b></u> <br/>
-                    <i> <a class="edu-class" href= "http://catalog.yale.edu/ycps/subjects-of-instruction/computer-science/" target="_blank" rel="noreferrer"> B.S. in Computer Science;  </a> </i>
-                    <i> <a class="edu-class" href= "http://catalog.yale.edu/ycps/subjects-of-instruction/applied-mathematics/" target="_blank" rel="noreferrer"> B.S. in Applied Mathematics;  </a> </i>
-                    GPA: 3.97/4.0 <br/>
+                    <i> <a class="edu-class" href= "http://catalog.yale.edu/ycps/subjects-of-instruction/computer-science/" target="_blank" rel="noreferrer"> B.S. Computer Science;  </a> </i>
+                    <i> <a class="edu-class" href= "http://catalog.yale.edu/ycps/subjects-of-instruction/mathematics/" target="_blank" rel="noreferrer"> B.A. Mathematics;  </a> </i>
+                    GPA: 3.93/4.00 <br/>
                     <ul>
                         <li>
                             <i> CS Coursework: </i> 
@@ -26,10 +26,13 @@ const Education = () =>{
                             <br/>
                         </li>
                         <li>
-                            <i> Applied Math Coursework: </i> 
+                            <i> Math Coursework: </i> 
                             <a class="edu-class" href= "https://courses.yale.edu/?keyword=math%20241&srcdb=202103" target="_blank" rel="noreferrer"> Probability Theory, </a>
                             <a class="edu-class" href= "https://courses.yale.edu/?keyword=math%20s222&srcdb=202102" target="_blank" rel="noreferrer"> Linear Algebra, </a>
-                            <a class="edu-class" href= "https://courses.yale.edu/?keyword=math%20120&srcdb=202003" target="_blank" rel="noreferrer"> Multivariable Calculus, </a>
+                            <a class="edu-class" href= "https://courses.yale.edu/?keyword=math%20120&srcdb=202003" target="_blank" rel="noreferrer"> Multivariable Calculus</a>
+                        </li>
+                        <li>
+                            <i> Misc Coursework: </i>
                             <a class="edu-class" href= "https://courses.yale.edu/?keyword=s&ds%20230&srcdb=202101" target="_blank" rel="noreferrer"> Data Exploration, </a>
                             <a class="edu-class" href= "https://courses.yale.edu/?keyword=econ%20121&srcdb=202101" target="_blank" rel="noreferrer"> Microeconomics, </a>
                             <a class="edu-class" href= "https://courses.yale.edu/?keyword=phys%20260&srcdb=202103" target="_blank" rel="noreferrer"> Intensive Mechanics </a>

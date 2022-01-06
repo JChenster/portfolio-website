@@ -28,8 +28,8 @@ const Experience = () => {
                 <u> <b> <a class="edu-class" href= "https://cpsc.yale.edu/" target="_blank" rel="noreferrer"> Yale Department of Computer Science </a> </b></u> <br/>
                     <i> Undergraduate Learning Assistant </i> (Sep 2021 – Present)
                     <ul>
-                        <li> Host 6 hours of office hours each week for CPSC 223 (Data Structures & Programming Techniques) with 170+ students.</li>
-                        <li> Lead problem set walk-throughs and supplementary workshops on course material and advanced topics.</li>
+                        <li> Host 6 hours of office hours each week for CPSC 223 (Data Structures & Programming Techniques) with 200+ students. </li>
+                        <li> Lead problem set walk-throughs and supplementary workshops on course material and advanced topics related to data structure implementation and usage, C programming, and debugging.</li>
                     </ul>
                 </div>
             </div>
@@ -42,7 +42,7 @@ const Experience = () => {
                 <u> <b> <a class="edu-class" href= "https://city.yale.edu/" target="_blank" rel="noreferrer"> Tsai Center for Innovative Thinking </a> </b></u> <br/>
                     <i> Student Software Developer </i> (Jun 2021 – Oct 2021)
                     <ul>
-                        <li> Led back-end development of an interactive chatbot in NodeJS to answer questions and display catered content using natural language processing and machine learning. </li>
+                        <li> Led back-end development of an interactive chatbot in Node.js to answer questions and display catered content using natural language processing and machine learning. </li>
                         <li> Orchestrated unit testing using Mocha and cloud deployment using Microsoft Azure.</li>
                         <li> Managed front-end integration of chatbot with existing technology stack managed in Drupal.</li>
                     </ul>

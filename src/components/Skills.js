@@ -40,22 +40,24 @@ const Skills = () => {
                     {generateSkill(65, "Java")}
                     {generateSkill(65, "SQL")}
                     {generateSkill(65, "Racket")}
+                    {generateSkill(65, "LaTeX")}
                 </div>
             </div>
             <div class="skills-row">
                 <div class="skills-row-left">
                     <div class="skills-wrap">
-                        <p class="skills-p">Technical Tools & Frameworks</p>
+                        <p class="skills-p">Frameworks & Developer Tools</p>
                     </div>
                 </div>
                 <div class="skills-row-right">
+                    {generateSkill(65, "React")}
+                    {generateSkill(65, "Node.js")}
+                    {generateSkill(65, "Flask")}
                     {generateSkill(85, "Bash")}
-                    {generateSkill(75, "Git")}
+                    {generateSkill(65, "Git")}
+                    {generateSkill(65, "Heroku")}
                     {generateSkill(75, "VS Code")}
-                    {generateSkill(65, "ReactJS")}
-                    {generateSkill(65, "NodeJS")}
-                    {generateSkill(65, "LaTeX")}
-                    {generateSkill(50, "Bootstrap")}
+                    {generateSkill(65, "Azure")}
                     {generateDummySkill()}
                 </div>
             </div>

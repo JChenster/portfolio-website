@@ -6,7 +6,7 @@ const Intro = () => {
     const about = (
         <div class="intro-about">
             <p> Hey there! I'm Jeffrey (Jeff).</p>
-            <p> I'm a first-gen student at Yale College studying Computer Science and Applied Mathematics. </p>
+            <p> I'm a first-gen student at Yale College studying Computer Science and Mathematics. </p>
             <p> I'm from Brooklyn, NY. </p>
         </div>
     );
