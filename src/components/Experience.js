@@ -12,16 +12,6 @@ const Experience = () => {
 
             <div class="edu-school">
                 <div class="edu-school-left">
-                    <img src={amazon_logo} alt = "Amazon logo" class="logo"/>
-                </div>
-                <div class="edu-school-right">
-                <u> <b> <a class="edu-class" href= "https://www.amazon.com/" target="_blank" rel="noreferrer"> Amazon </a> </b></u> <br/>
-                    <i> Incoming Software Development Engineer Intern </i> (Summer 2022) <br/>
-                </div>
-            </div>
-
-            <div class="edu-school">
-                <div class="edu-school-left">
                     <img src={yale_logo} alt = "Yale logo" class="logo"/>
                 </div>
                 <div class="edu-school-right">
