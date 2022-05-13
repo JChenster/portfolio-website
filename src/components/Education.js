@@ -13,32 +13,24 @@ const Education = () =>{
                 </div>
                 <div class="edu-school-right">
                     <u> <b> <a class="edu-class" href= "https://www.yale.edu/" target="_blank" rel="noreferrer"> Yale University </a> </b></u> <br/>
-                    <i> <a class="edu-class" href= "http://catalog.yale.edu/ycps/subjects-of-instruction/computer-science/" target="_blank" rel="noreferrer"> B.S. Computer Science;  </a> </i>
-                    <i> <a class="edu-class" href= "http://catalog.yale.edu/ycps/subjects-of-instruction/mathematics/" target="_blank" rel="noreferrer"> B.A. Mathematics;  </a> </i>
+                    <i> <a class="edu-class" href= "http://catalog.yale.edu/ycps/subjects-of-instruction/computer-science-mathematics/" target="_blank" rel="noreferrer"> B.S. Computer Science and Mathematics; </a> </i>
                     GPA: 3.93/4.00 <br/>
                     <ul>
                         <li>
-                            <i> CS Coursework: </i> 
-                            <a class="edu-class" href= "https://courses.yale.edu/?keyword=cpsc%20223&srcdb=202101" target="_blank" rel="noreferrer"> Data Structures, </a>
-                            <a class="edu-class" href= "https://courses.yale.edu/?keyword=cpsc%20323&srcdb=202103" target="_blank" rel="noreferrer"> Systems Programming, </a>
-                            <a class="edu-class" href= "https://courses.yale.edu/?keyword=cpsc%20474&srcdb=202103" target="_blank" rel="noreferrer"> AI for Games, </a>
-                            <a class="edu-class" href= "https://courses.yale.edu/?keyword=math%20s244&srcdb=202102" target="_blank" rel="noreferrer"> Discrete Math </a>
+                            <u><i> CS Coursework: </i></u> Data Structures, Intensive Algorithms, Systems Programming, AI for Games
                             <br/>
                         </li>
                         <li>
-                            <i> Math Coursework: </i> 
-                            <a class="edu-class" href= "https://courses.yale.edu/?keyword=math%20241&srcdb=202103" target="_blank" rel="noreferrer"> Probability Theory, </a>
-                            <a class="edu-class" href= "https://courses.yale.edu/?keyword=math%20s222&srcdb=202102" target="_blank" rel="noreferrer"> Linear Algebra, </a>
-                            <a class="edu-class" href= "https://courses.yale.edu/?keyword=math%20120&srcdb=202003" target="_blank" rel="noreferrer"> Multivariable Calculus</a>
+                            <u> <i> Math Coursework:</i></u> Intensive Analysis, Calculus I-III, Linear Algebra, Discrete Math
                         </li>
                         <li>
-                            <i> Misc Coursework: </i>
-                            <a class="edu-class" href= "https://courses.yale.edu/?keyword=s&ds%20230&srcdb=202101" target="_blank" rel="noreferrer"> Data Exploration, </a>
-                            <a class="edu-class" href= "https://courses.yale.edu/?keyword=econ%20121&srcdb=202101" target="_blank" rel="noreferrer"> Microeconomics, </a>
-                            <a class="edu-class" href= "https://courses.yale.edu/?keyword=phys%20260&srcdb=202103" target="_blank" rel="noreferrer"> Intensive Mechanics </a>
+                            <u><i> Data Science Coursework:</i></u> Statistical Methods for Science and Finance, Probability Theory, Data Analysis in R
                         </li>
                         <li>
-                            <i> Activities: </i> 
+                            <u><i>Miscellaneous Coursework:</i></u> Intermediate Microeconomics, Intensive Introduction to Mechanics, Intermediate Chinese
+                        </li>
+                        <li>
+                            <u><i> Activities: </i> </u>
                             <a class="edu-class" href="https://yhhap.org/vita" target="_black" rel="nonreferrer">Volunteer Income Tax Assistance (Director of Training), </a>
                             <a class="edu-class" href="https://branford.yalecollege.yale.edu/resources/housing" target="_black" rel="nonreferrer">Branford Housing Committee (Class Representative),</a>
                         </li>           
