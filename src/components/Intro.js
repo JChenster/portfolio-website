@@ -10,7 +10,7 @@ const Intro = () => {
             <p> I'm from Brooklyn, NY. </p>
         </div>
     );
-    
+
     return (
         <div class="container intro-container">
             <div class="intro-left">

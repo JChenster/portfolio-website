@@ -9,19 +9,19 @@ import Skills from "./components/Skills"
 import Footer from "./components/Footer";
 
 class App extends Component{
-  render(){
-    return (
-      <div>
-        <NavBar />
-        <Intro />
-        <Education />
-        <Experience />
-        <Projects />
-        <Skills />
-        <Footer />
-      </div>
-    );
-  }
+    render(){
+        return (
+            <div>
+            <NavBar />
+            <Intro />
+            <Education />
+            <Experience />
+            <Projects />
+            <Skills />
+            <Footer />
+            </div>
+        );
+    }
 }
 
 export default App;

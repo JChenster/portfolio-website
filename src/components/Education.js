@@ -33,9 +33,9 @@ const Education = () =>{
                             <u><i> Activities: </i> </u>
                             <a class="edu-class" href="https://yhhap.org/vita" target="_black" rel="nonreferrer">Volunteer Income Tax Assistance (Director of Training), </a>
                             <a class="edu-class" href="https://branford.yalecollege.yale.edu/resources/housing" target="_black" rel="nonreferrer">Branford Housing Committee (Class Representative),</a>
-                        </li>           
+                        </li>
                     </ul>
-                    
+
                 </div>
             </div>
 

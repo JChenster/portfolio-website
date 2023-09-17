@@ -17,7 +17,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "copy": "cp ./CNAME ./build/CNAME",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
