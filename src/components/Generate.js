@@ -45,7 +45,7 @@ const generateProj = (id, name, date, external_link, description, proj_skills) =
             <div class="project-desc">
                 <div class="proj-desc-left">
                     <b>{name}</b><br/>
-                    <i>{date}</i><br/>
+                    {date}<br/>
                 </div>
                 {is_git ? generateGit(external_link) : generatePdf(external_link)}
             </div>

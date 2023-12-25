@@ -5,9 +5,9 @@ import {SocialIcon} from "react-social-icons";
 const Intro = () => {
     const about = (
         <div class="intro-about">
-            <p> Hey there! I'm Jeffrey (Jeff).</p>
-            <p> I'm a first-gen student at Yale College studying Computer Science and Mathematics. </p>
-            <p> I'm from Brooklyn, NY. </p>
+            <p> Hey there! I'm Jeffrey (also go by Jeff).</p>
+            <p> I'm from Brooklyn, NY and I'm currently a first-gen student entering my last semester at Yale College studying Computer Science. I love learning and solving problems. </p>
+            <p> My favorite topics to think about are all things systems programming and algorithms. </p>
         </div>
     );
 
