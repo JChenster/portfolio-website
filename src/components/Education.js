@@ -12,30 +12,34 @@ const Education = () =>{
                     <img src={yalelogo} alt = "Yale logo" class="logo"/>
                 </div>
                 <div class="edu-school-right">
-                    <u> <b> <a class="edu-class" href= "https://www.yale.edu/" target="_blank" rel="noreferrer"> Yale University </a> </b></u> <br/>
-                    <i> <a class="edu-class" href= "http://catalog.yale.edu/ycps/subjects-of-instruction/computer-science-mathematics/" target="_blank" rel="noreferrer"> B.S. Computer Science and Mathematics; </a> </i>
-                    GPA: 3.93/4.00 <br/>
+                    <u> <b> <a class="edu-class"
+                               href="https://www.yale.edu/"
+                               target="_blank" rel="noreferrer">
+                        Yale University
+                    </a> </b> </u>
+                    <br/>
+                    <i> <a class="edu-class"
+                           href="https://catalog.yale.edu/ycps/subjects-of-instruction/computer-science/"
+                           target="_blank"
+                           rel="noreferrer">
+                        M.S. in Computer Science, B.S. in Computer Science (4 Year Joint Program)
+                    </a> </i>
+                    <br/>
+                    GPA: 3.91/4.00
                     <ul>
                         <li>
-                            <u><i> CS Coursework: </i></u> Data Structures, Intensive Algorithms, Systems Programming, AI for Games
-                            <br/>
+                            <u> Computer Science Coursework:</u> Compilers, Distributed Systems, Networked Systems, Database Implementation, Systems Programming, Computer System Design, Parallel Programming, Data Structures, Intensive Algorithms, Randomized Algorithms, Computational Intelligence, Deep Learning
                         </li>
                         <li>
-                            <u> <i> Math Coursework:</i></u> Intensive Analysis, Calculus I-III, Linear Algebra, Discrete Math
+                            <u> Mathematics & Statistics Coursework:</u> Probability, Stochastic Processes, Linear Models, Statistical Methods, Data Analysis, Discrete Math, Real Analysis, Linear Algebra, Differential Equations
                         </li>
                         <li>
-                            <u><i> Data Science Coursework:</i></u> Statistical Methods for Science and Finance, Probability Theory, Data Analysis in R
+                            <u> Undergraduate Learning Assistant For:</u> Data Structures, Algorithms, Parallel Programming, Computational Intelligence for Games, Differential Equations
                         </li>
                         <li>
-                            <u><i>Miscellaneous Coursework:</i></u> Intermediate Microeconomics, Intensive Introduction to Mechanics, Intermediate Chinese
-                        </li>
-                        <li>
-                            <u><i> Activities: </i> </u>
-                            <a class="edu-class" href="https://yhhap.org/vita" target="_black" rel="nonreferrer">Volunteer Income Tax Assistance (Director of Training), </a>
-                            <a class="edu-class" href="https://branford.yalecollege.yale.edu/resources/housing" target="_black" rel="nonreferrer">Branford Housing Committee (Class Representative),</a>
+                            <u> Activities:</u> Volunteer Income Tax Club (Director of Training)
                         </li>
                     </ul>
-
                 </div>
             </div>
 
@@ -45,9 +49,19 @@ const Education = () =>{
                 </div>
                 <div class="edu-school-right">
                 <u> <b> <a class="edu-class" href= "https://stuy.enschool.org/" target="_blank" rel="noreferrer"> Stuyvesant High School </a> </b></u> <br/>
-                    <i> Advanced Regents Diploma; </i> GPA: 97.78/100 <br/>
+                    <i> <a class="edu-class"
+                           href="https://stuy.enschool.org/academics/grad_require2.jsp"
+                           target="_blank"
+                           rel="noreferrer">
+                        Stuyvesant-Endorsed Advanced Regents Diploma
+                    </a> </i>
+                    <br/>
+                    GPA: 97.78/100
+                    <br/>
                     <ul>
-                        <li><i> Activities: </i> Policy Debate (Captain, Qualifier to Tournament of Champions)</li>
+                        <li>
+                            <u> Activities:</u> Policy Debate Captain (Qualifier to Tournament of Champions)
+                        </li>
                     </ul>
                 </div>
             </div>
